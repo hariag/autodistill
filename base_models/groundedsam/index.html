@@ -246,14 +246,14 @@
       
       
         <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-          Base Models
+          Detection
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Base Models
+          Detection
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -261,15 +261,30 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../clip/" class="md-nav__link">
-        CLIP
-      </a>
-    </li>
   
-
-            
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+          Base Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Base Models
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -356,6 +371,13 @@
       <a href="../owlvit/" class="md-nav__link">
         OWL-ViT
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -465,6 +487,166 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Classification
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Classification
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+          Base Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Base Models
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clip/" class="md-nav__link">
+        CLIP
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Target Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Target Models
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../target_models/vit/" class="md-nav__link">
+        ViT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../target_models/yolov5/" class="md-nav__link">
+        YOLOv5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../target_models/yolov8/" class="md-nav__link">
+        YOLOv8
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../changelog/" class="md-nav__link">
         Changelog
@@ -538,17 +720,20 @@
 <div class="highlight"><pre><span></span><code>pip3<span class="w"> </span>install<span class="w"> </span>autodistill-groundedsam
 </code></pre></div>
 <h2 id="quickstart">Quickstart<a class="headerlink" href="#quickstart" title="Permanent link">&para;</a></h2>
-<p>```python
-from autodistill_grounded_sam import GroundedSAM
-from autodistill_yolov8 import YOLOv8</p>
-<h1 id="define-an-ontology-to-map-class-names-to-our-groundingdino-prompt">define an ontology to map class names to our GroundingDINO prompt<a class="headerlink" href="#define-an-ontology-to-map-class-names-to-our-groundingdino-prompt" title="Permanent link">&para;</a></h1>
-<h1 caption:="caption:" class="class" id="the-ontology-dictionary-has-the-format">the ontology dictionary has the format<a class="headerlink" href="#the-ontology-dictionary-has-the-format" title="Permanent link">&para;</a></h1>
-<h1 id="where-caption-is-the-prompt-sent-to-the-base-model-and-class-is-the-label-that-will">where caption is the prompt sent to the base model, and class is the label that will<a class="headerlink" href="#where-caption-is-the-prompt-sent-to-the-base-model-and-class-is-the-label-that-will" title="Permanent link">&para;</a></h1>
-<h1 id="be-saved-for-that-caption-in-the-generated-annotations">be saved for that caption in the generated annotations<a class="headerlink" href="#be-saved-for-that-caption-in-the-generated-annotations" title="Permanent link">&para;</a></h1>
-<h1 id="then-load-the-model">then, load the model<a class="headerlink" href="#then-load-the-model" title="Permanent link">&para;</a></h1>
-<p>base_model = GroundedSAM(ontology=CaptionOntology({"shipping container": "container"}))</p>
-<h1 id="label-all-images-in-a-folder-called-context_images">label all images in a folder called <code>context_images</code><a class="headerlink" href="#label-all-images-in-a-folder-called-context_images" title="Permanent link">&para;</a></h1>
-<p>base_model.label("./context_images", extension=".jpeg")</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">autodistill_grounded_sam</span> <span class="kn">import</span> <span class="n">GroundedSAM</span>
+<span class="kn">from</span> <span class="nn">autodistill_yolov8</span> <span class="kn">import</span> <span class="n">YOLOv8</span>
+
+
+<span class="c1"># define an ontology to map class names to our GroundingDINO prompt</span>
+<span class="c1"># the ontology dictionary has the format {caption: class}</span>
+<span class="c1"># where caption is the prompt sent to the base model, and class is the label that will</span>
+<span class="c1"># be saved for that caption in the generated annotations</span>
+<span class="c1"># then, load the model</span>
+<span class="n">base_model</span> <span class="o">=</span> <span class="n">GroundedSAM</span><span class="p">(</span><span class="n">ontology</span><span class="o">=</span><span class="n">CaptionOntology</span><span class="p">({</span><span class="s2">&quot;shipping container&quot;</span><span class="p">:</span> <span class="s2">&quot;container&quot;</span><span class="p">}))</span>
+
+<span class="c1"># label all images in a folder called `context_images`</span>
+<span class="n">base_model</span><span class="o">.</span><span class="n">label</span><span class="p">(</span><span class="s2">&quot;./context_images&quot;</span><span class="p">,</span> <span class="n">extension</span><span class="o">=</span><span class="s2">&quot;.jpeg&quot;</span><span class="p">)</span>
+</code></pre></div>
 
 
 
