@@ -1,28 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://autodistill.github.io/autodistill/</loc>
-         <lastmod>2023-06-07</lastmod>
+         <loc>https://roboflow.github.io/autodistill/</loc>
+         <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autodistill.github.io/autodistill/changelog/</loc>
-         <lastmod>2023-06-07</lastmod>
+         <loc>https://roboflow.github.io/autodistill/changelog/</loc>
+         <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autodistill.github.io/autodistill/base_models/groundedsam/</loc>
-         <lastmod>2023-06-07</lastmod>
+         <loc>https://roboflow.github.io/autodistill/base_models/clip/</loc>
+         <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autodistill.github.io/autodistill/target_models/yolov8-instance-segmentation/</loc>
-         <lastmod>2023-06-07</lastmod>
+         <loc>https://roboflow.github.io/autodistill/base_models/detic/</loc>
+         <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autodistill.github.io/autodistill/target_models/yolov8/</loc>
-         <lastmod>2023-06-07</lastmod>
+         <loc>https://roboflow.github.io/autodistill/base_models/groundedsam/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://roboflow.github.io/autodistill/base_models/owlvit/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://roboflow.github.io/autodistill/target_models/vit/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://roboflow.github.io/autodistill/target_models/yolo-nas/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://roboflow.github.io/autodistill/target_models/yolov5/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://roboflow.github.io/autodistill/target_models/yolov8-instance-segmentation/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://roboflow.github.io/autodistill/target_models/yolov8/</loc>
+         <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
